@@ -1,0 +1,1 @@
+CreateGrudge(Polska2015,_hidden_,Socialist_freq,0.11,1,0);

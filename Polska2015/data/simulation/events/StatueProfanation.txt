@@ -1,0 +1,15 @@
+[config]
+Name = StatueProfanation
+GUIName = Profanacja pomnika prezydenta
+Texture = "event_monument.jpg"
+Description = Dziê w godzinach nocnych nieznani sprawcy dopuêcili siü profanacji pomnika prezydenta, ktÿry znajduje siü przed Paùacem Prezydenckim w Warszawie. Spekuluje siü, îe byùa to oznaka bezsilnoêci opozycji i protest przeciw porzädkom panujäcym w kraju. Policja poszukuje sprawcÿw, ale nie udziela komentarzy dla dobra êledztwa.
+GUISound = d3_demolition.ogg
+OnImplement = CreateGrudge(Profanacja pomnika prezydenta,StatueProfanation,Consevatives,0.500,0.500);CreateGrudge(Profanacja pomnika prezydenta,StatueProfanation,Unemployment,-0.900,0.900);CreateGrudge(Profanacja pomnika prezydenta,StatueProfanation,StatueProfanation,-0.900,0.900);CreateGrudge(Profanacja pomnika prezydenta,StatueProfanation,PovertyRate,-0.900,0.850);
+[influences]
+0 = "_random_,0.200,0.700"
+1 = "Liberal,0-(0.3*x)"
+2 = "Unemployment,0-(0.2*x)"
+
+ = "Religious,0-(0.2*x)"
+3 = "PoliceForce,0+(0.2*x)"
+4 = "PoliceDrones,0+(0.15*x)"

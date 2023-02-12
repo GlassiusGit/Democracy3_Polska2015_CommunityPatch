@@ -1,0 +1,12 @@
+[config]
+Name = LowIncomeStrike
+GUIName = Protest pracownikÿw na êmieciÿwkach
+Description = Pracownicy zatrudnieni na umowach êmieciowych wyszli na ulice. Majä doêö pùacy, ktÿra jest poniîej minimum socjalnego. Wezwali czùonkÿw rzädu, by sami pracowali za 5 PLN na godzinü.
+Texture = "event_lowincomestrike.jpg"
+GUISound = d3_ crowd_angry_2.ogg
+OnImplement = "CreateGrudge(Protest pracownikÿw na êmieciÿwkach,LowIncomeStrike,_LowIncome,-0.200,0.800);CreateGrudge(Protest pracownikÿw na êmieciÿwkach,LowIncomeStrike,Poor,-0.300,0.550);CreateGrudge(Protest pracownikÿw na êmieciÿwkach,LowIncomeStrike,LowIncomeStrike,-0.900,0.900);
+ [influences]
+0 = "_random_,0.000,1.000"
+1 = "LowIncome,0-(0.2*x)"
+2 = "TradeUnionist,0-(0.4*x)"
+3 = "TradeUnionist_freq,0+(0.25*x)"

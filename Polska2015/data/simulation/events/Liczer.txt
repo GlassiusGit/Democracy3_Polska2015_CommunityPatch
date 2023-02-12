@@ -1,0 +1,12 @@
+[config]
+Name = Liczer
+GUIName = Kolejna czüêö Ùiczera
+Description = Wsparcie rzädu dla nowoczesnych technologii sprawiùo, îe twÿrcy '£iczera' zdecydowali siü kontynuowaö sagü. Po entuzjastycznym przyjüciu przez graczy i recenzentÿw pojawiùy siü pierwsze nagrody branîowe. 
+Texture = "event_Liczer.jpg"
+GUISound = d3_celebrity.ogg
+OnImplement = CreateGrudge(Kolejna czüêö Ùiczera,Liczer,Education,0.300,0.800);CreateGrudge(Kolejna czüêö Ùiczera,Liczer,Patriot,0.200,0.790);CreateGrudge(Kolejna czüêö Ùiczera,Liczer,Liczer,-0.900,0.900);
+[influences]
+0 = "_random_,0.000,0.600"
+1 = "GDP,0+(0.03*x)"
+2 = "InternationalTrade,0+(0.07*x)"
+3 = "Technology,0+(0.25*x)"

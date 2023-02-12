@@ -1,0 +1,73 @@
+[config]
+currency = "PLN"
+population = 19239
+economic_cycle_start = 0.4	
+min_income = 3700
+max_income = 160000
+min_gdp = 158791
+max_gdp = 472773
+wealth_mod = 2.15
+starting_debt = 155680
+name  = Polska
+guiname = "Polska2015"
+names_file = "Polska2015\data\names\polishnames.txt"
+term_length = 16
+max_terms = -1
+details_image = "polska_details.jpg"
+description = "Polska polityka zmieniùa kurs i podziükowaùa ekipie, ktÿra trwaùa przy wùadzy przez ostatnie lata. Suweren w wyborach powiedziaù 'Nie!' i teraz masz szansü zrealizowaö jego wolü. Moîesz przejäö media, 'usprawniö' Trybunaù Konstytucyjny, obùoîyö podatkiem banki i obsadziö stanowiska w sùuîbie publicznej zaufanymi ludŸmi o wysokich kwalifikacjach moralnych. Niech opozycja wêcieka siü na 'republikü kolesiÿw' i 'paûstwo totalitarne'. Suweren z radoêciä przyjmie program 500+. Chyba îe masz zupeùnie inny program. W koûcu to Ty okreêlasz, co jest wolä wyborcÿw i wypeùnisz treêciä hasùo: 'Dobra zmiana'!"
+flag = "flag_polska.jpg"
+apathy = 0.4
+jobtitle = "Premier"
+GUID = -5
+
+[options]
+
+[stats]
+Populacja: = "38 478 600"
+Powierzchnia: = "312 679 km kw."
+Skùad etniczny: = "97,09% Polacy i 2,81% inni"
+Êrednia dùugoêö îycia: = "77,2 lata"
+PKB na gùowü: = "44 670 PLN"
+Ubÿstwo: = "7,28%"
+Przyrost naturalny: = "-0,5% (2013)"
+Religia: = "Katolicyzm (86,9%)"
+Bezrobocie: = "9,8% (IV kw. 2015)"
+Danie narodowe: = "Kebab"
+Spoîycie alkoholu/gùowü: = "12,5 l"
+Obietnice dobrej zmiany: = "897 371 584"
+
+[policies]
+CorporationTax = 0.32
+SalesTax = 0.40
+PetrolTax = 0.30
+UnemployedBenefit = 0.25
+StateHealthService = 0.5
+StateSchools = 0.5
+PropertyTax = 0.3
+RailSubsidies = 0.3
+TobaccoTax = 0.3
+StatePensions = 0.3
+InheritanceTax = 0.1
+AlcoholTax = 0.3
+Narcotics = 0
+LegalAid = 0.1
+IncomeTax = 0.4
+ForeignAid = 0.05
+Recycling = 0.5
+ScienceFunding = 0.15
+MilitarySpending = 0.3
+AlcoholLaw = 0.6
+Creationism = 0.4
+IDCards = 0.8
+PoliceForce = 0.6
+ArmedPolice = 0.4
+TechnologyColleges = 0.4
+CarEmmissionsLimits = 0.2
+AgricultureSubsidies = 0.5
+LabourLaws = 0.6
+DisabilityBenefit = 0.1
+MaternityLeave = 0.6
+AgricultureSubsidies = 0.3
+CCTVCameras = 0.6
+ForeignInvestorTaxBreaks = 0.15
+TollRoads = 0.2
