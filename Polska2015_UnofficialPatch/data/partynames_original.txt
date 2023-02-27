@@ -1,0 +1,29 @@
+[names]
+Liberalni Demokraci
+Socjalni Demokraci
+Partia Jehowy
+Demokratyczni Konserwatyêci
+Partia Liberalna
+Konserwatyêci
+Republikanie
+Demokraci
+Partia Sprawiedliwoêci
+Partia Wolnoêci
+Partia Zjednoczenia Narodowego
+Partia Zielonych
+Koalicja Liberalna
+Partia Ludowa
+Front Ludowy
+Front Socjalistyczny
+Front Narodowy
+Front Robotniczy
+Partia Pracy
+Partia Niezaleîna
+Partia Reformatorska
+Unia Demokratyczna
+Ruch Demokratyczny
+Ruch Ludowy
+Partia Socjalistyczna
+Koalicja Socjalistyczna
+Front Liberalny
+Partia Êwiecka
