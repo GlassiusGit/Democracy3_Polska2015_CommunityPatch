@@ -1,24 +1,40 @@
-# Democracy3_Polska2015_CommunityPatch
-Patch for Democracy 3 mod named "Polska 2015: Dobra zmiana". Original by CD Project
+# Democracy3 Polska2015 UnofficialPatch
+Mod naprawiający moda "Polska 2015: Dobra zmiana" od CD Projekt
 
-## Introduction
-[Polska 2015: Dobra zmiana mod location](https://steamcommunity.com/sharedfiles/filedetails/?id=674367345). Mod version 1.01 has some problems I decided to fix. Also, I wanted to learn Git. This is my first Git project!
+## Linki
+[Polska 2015: Dobra zmiana v1.01](https://steamcommunity.com/sharedfiles/filedetails/?id=674367345)
 
-## Installation and deletion
-It seems many people have problem with that, so this must be the first thing about fixing.
-### Installation
-1. Subscribe mod in Steam
-2. Enable mod ingame. **NOTE: I did not find a way to make all simulation files mod exclusive. You may gain Łiczer event while playing France, for example.**
-### Uninstall
-1. Disable mod ingame.
-2. Unsubscribe in Steam.
-### In case of crashes
-1. Do the same steps like for Uninstall.
-2. Remove \steamapps\common\Democracy 3\data\mods\Polska2015.txt
-3. Remove \steamapps\common\Democracy 3\Polska2015
-4. Remove \Documents\My Games\democracy3\mod_status.ini
-5. Remove \Documents\My Games\democracy3\mod_dates.ini
-6. Run Democracy 3 with Steam overlay (it restores two above ini files).
+[Github projekt](https://github.com/GlassiusGit/Democracy3_Polska2015_UnofficialPatch)
 
-## Wrong diactrics
-Original author of Democracy 3, cliffski, [introduced Unicode support](https://www.positech.co.uk/cliffsblog/2017/09/18/the-democracy-3-unicode-post-oh-yes/). However, Polish version of the game still uses some peculiar encoding. This encoding is unknown to [other Polish encodings](https://pl.wikipedia.org/wiki/Kodowanie_polskich_znak%C3%B3w). It codes Polish diactric signs using one byte, beyond ASCII coding. It causes multiple Polish words to be wrongly interpreted. In the branch investigate_diactrics I've made a research to find all encodings of Polish signs. File investigate.py documents this effort. After successfull investigation, I've prepared switch_coding.py which allows to quickly change between Democracy 3 format to Windows-1250 for Polish diactrics. With that, I was able to fix all those errors. Fixed files were merged back to master branch. Python files remains in investigate_diactrics branch for future use.
+## Naprawianie
+W razie konfliktów i crashy
+1. Wyłącz moda w menu gry.
+2. Odsuksrybuj moda.
+3. Usuń \steamapps\common\Democracy 3\data\mods\Polska2015_UnofficialPatch.txt
+4. Usuń \steamapps\common\Democracy 3\Polska2015_UnofficialPatch
+5. Usuń \Documents\My Games\democracy3\mod_status.ini
+6. Usuń \Documents\My Games\democracy3\mod_dates.ini
+7. Zresynchronizuj pliki gry (prawy klik na grę w bibliotece Steam->właściwości->pliki lokalne->sprawdź spójność plików gry)
+8. Uruchom grę i pozwól Steamowi zresynchronizować bibliotekę suksrybowanych modów.
+
+## Instalacja
+1. Zasuksrybuj moda.
+2. Włącz go w menu gry.
+3. Usuń \_patched z nazwy pliku \steamapps\common\Democracy 3\Polska2015_UnofficialPatch\data\partynames_patched.txt i nadpisz go na \steamapps\common\Democracy 3\data\partynames.txt. W razie czego, masz tam też oryginalny plik.
+
+## Usuwanie
+1. Wyłącz moda w menu gry.
+2. Odsuksrybuj moda.
+3. Usuń \_original z nazwy pliku \steamapps\common\Democracy 3\Polska2015_UnofficialPatch\data\partynames_original.txt i nadpisz go na \steamapps\common\Democracy 3\data\partynames.txt. Możesz też zresynchronizować pliki gry (prawy klik na grę w bibliotece Steam->właściwości->pliki lokalne->sprawdź spójność plików gry)
+
+## Stan moda
+Mod jest naprawiony, a gameplay jest taki sam jak w oryginalnym modzie.
+- Naprawiono literówki i błędy z kodowaniem polskich znaków. Udokumentowano to w branchu investigate_diactrics projektu na Githubie
+- Poprawiono błędy w zdaniach
+- Usunięto zidentyfikowane błędy występujące w plikach oryginalnego moda. Wszystkie eventy, polityki, sytuacje, symulacje i slidery zostały przetestowane pod kątem gliczy i wykrzaczania gry
+
+## Na przyszłość
+W razie zainteresowania graczy
+- Tłumaczenie na angielski
+- Implementacja sytuacji (obecnie nie ma możliwości by sytuacje się włączyły)
+- Balans sytuacji. Obecnie 
