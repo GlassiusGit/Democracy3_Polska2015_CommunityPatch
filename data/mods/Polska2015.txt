@@ -1,7 +1,0 @@
-[config]
-name = Polska 2015: Dobra zmiana
-path = Polska2015
-guiname = Polska 2015: Dobra zmiana
-author = Dariusz J. Michalski / r. Dobrochna Badora
-description = Polska polityka zmienila kurs i podziekowala ekipie, ktora trwala przy wladzy przez ostatnie lata. Suweren w wyborach powiedzial -Nie!- i teraz masz szanse zrealizowac jego wole. Mozesz przejac media, usprawnic Trybunal Konstytucyjny...
-
