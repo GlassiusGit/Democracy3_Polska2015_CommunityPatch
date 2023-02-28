@@ -37,4 +37,4 @@ Mod jest naprawiony, a gameplay jest taki sam jak w oryginalnym modzie.
 W razie zainteresowania graczy
 - Tłumaczenie na angielski
 - Implementacja sytuacji (obecnie nie ma możliwości by sytuacje się włączyły)
-- Balans sytuacji. Obecnie 
+- Balans sytuacji. Na przykład, reforma "Świeckie państwo" cieszy osoby religijne. A nie powinna!
